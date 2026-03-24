@@ -25,7 +25,6 @@
         content: "";
         /* Essential for pseudo-elements to render */
         position: fixed;
-        /* Keeps the background fixed in the viewport even on scroll */
         top: 0;
         left: 0;
         width: 100%;
@@ -51,10 +50,11 @@
     }
 
     img {
-        display: block;
+        display: flex;
         margin-left: auto;
         margin-right: auto;
         border-radius: 50px;
+justify-content:center;
     }
 
     h4 {
